@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "lib": ["es2022"],
+    "module": "commonjs",
+    "target": "es2022",
+
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+
+    "paths": {
+      "@firmament/*": [
+        "./packages/*/src/index.ts"
+      ]
+    }
+  },
+  "references": [
+    {
+      "path": "./packages/engine"
+    }
+  ],
+  "exclude": ["node_modules", "dist", "*.d.ts"]
+}

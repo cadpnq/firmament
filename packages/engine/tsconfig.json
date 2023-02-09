@@ -1,0 +1,20 @@
+{
+   "extends": "../../tsconfig.json",
+   "compilerOptions": {
+     "rootDir": "./src",
+     "outDir": "./dist",
+     "baseUrl": ".",
+     "sourceMap": true,
+     "resolveJsonModule": true,
+     "esModuleInterop": true,
+     "composite": true,
+     "allowJs": false,
+     "declaration": true,
+     "declarationMap": true,
+     "allowSyntheticDefaultImports": true,
+
+     "experimentalDecorators": true,
+     "emitDecoratorMetadata": true
+   },
+   "include": ["./src/**/*.ts"]
+}
