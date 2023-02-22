@@ -5,7 +5,8 @@
     "packages/*"
   ],
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "engine": "yarn workspace @firmament/engine run"
   },
   "devDependencies": {
     "@types/node": "^18.13.0",
