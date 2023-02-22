@@ -1,6 +1,7 @@
 {
   "name": "@firmament/engine",
   "packageManager": "yarn@3.2.1",
+  "version": "0.0.0",
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",

@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  engine:
+    build:
+      context: .
+      dockerfile: packages/engine/Dockerfile
+    ports:
+      - 9001:9001
