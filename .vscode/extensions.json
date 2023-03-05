@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "eamodio.gitlens",
+    "firsttris.vscode-jest-runner",
+    "dbaeumer.vscode-eslint",
+    "ms-azuretools.vscode-docker",
+    "esbenp.prettier-vscode",
+    "redhat.vscode-yaml"
+  ]
+}
