@@ -33,7 +33,7 @@
   },
   // TODO: forward appropriate ports here
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
-  // "forwardPorts": [],
+  "forwardPorts": [9001],
 
   // Use 'postCreateCommand' to run commands after the container is created.
   "postCreateCommand": ". $NVM_DIR/nvm.sh && nvm install && yarn install"
