@@ -2,12 +2,10 @@
   "name": "firmament",
   "packageManager": "yarn@3.4.1",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "prepare": "husky install",
-    "engine": "yarn workspace @firmament/engine run"
+    "engine": "pnpm --filter @firmament/engine"
   },
   "devDependencies": {
     "@types/node": "^18.13.0",

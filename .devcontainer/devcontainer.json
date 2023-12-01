@@ -36,7 +36,7 @@
   "forwardPorts": [9001],
 
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": ". $NVM_DIR/nvm.sh && nvm install && yarn install"
+  "postCreateCommand": ". $NVM_DIR/nvm.sh && nvm install && pnpm install"
 
   // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
   // "remoteUser": "root"
